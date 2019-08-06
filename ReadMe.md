@@ -73,6 +73,16 @@ Number of messages globally sent by the nodes of the system regardless of the me
 Size of messages representing the volume of data exchanges.
 The complexity of operations supported by distributed data structures (e.g., searching for a specific key in a distributed index) can be characterized as a function of one of these cost units. Generally speaking, the analysis of a distributed structure in terms of ‘number of messages’ is over-simplistic. It ignores the impact of many aspects, including the network topology, the network load, and its variation, the possible heterogeneity of the software and hardware components involved in data processing and routing, etc. However, it is quite difficult to develop a precise cost model that would accurately take into account all these performance factors; therefore, we have to live with rough but robust estimates of the system behavior.
 
+### Latency vs throughput
+**Latency** is the time to perform some action or to produce some result.
+
+**Throughput** is the number of such actions or results per unit of time.
+
+Generally, you should aim for **maximal throughput** with **acceptable latency**.
+
+### Source(s) and further reading
+* [Understanding latency vs throughput](https://community.cadence.com/cadence_blogs_8/b/sd/posts/understanding-latency-vs-throughput)
+
 ## Serviceability or Manageability
 Another important consideration while designing a distributed system is how easy it is to operate and maintain. Serviceability or manageability is the simplicity and speed with which a system can be repaired or maintained; if the time to fix a failed system increases, then availability will decrease. Things to consider for manageability are the ease of diagnosing and understanding problems when they occur, ease of making updates or modifications, and how simple the system is to operate (i.e., does it routinely operate without failure or exceptions?).
 
