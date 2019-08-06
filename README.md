@@ -32,13 +32,13 @@ Good examples of horizontal scaling are [Cassandra](https://en.wikipedia.org/wik
 
 **Related Topic**<br>
 [Scalability Lecture at Harvard](https://www.youtube.com/watch?v=-W9F__D3oY4)<br>
-*Topics covered:<br>
-  *Vertical scaling<br>
-  *Horizontal scaling<br>
-  *Caching<br>
-  *Load balancing<br>
-  *Database replication<br>
-  *Database partitioning<br>
+* Topics covered:<br>
+  * Vertical scaling<br>
+  * Horizontal scaling<br>
+  * Caching<br>
+  * Load balancing<br>
+  * Database replication<br>
+  * Database partitioning<br>
                                              
 ## Reliability
 
