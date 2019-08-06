@@ -25,10 +25,10 @@ Responses return the most recent version of the data available on a node, which 
 
 AP is a good choice if the business needs allow for eventual consistency or when the system needs to continue working despite external errors.
 
-### Source(s) and further reading**
-[CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)
-[A plain english introduction to CAP theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)
-[CAP FAQ](https://github.com/henryr/cap-faq)
+### Source(s) and further reading
+[CAP theorem revisited](http://robertgreiner.com/2014/08/cap-theorem-revisited/)<br>
+[A plain english introduction to CAP theorem](http://ksat.me/a-plain-english-introduction-to-cap-theorem/)<br>
+[CAP FAQ](https://github.com/henryr/cap-faq)<br>
 
 ## Consistency patterns
 With multiple copies of the same data, we are faced with options on how to synchronize them so clients have a consistent view of the data. Recall the definition of consistency from the CAP theorem - Every read receives the most recent write or an error.
