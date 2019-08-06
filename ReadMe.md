@@ -30,7 +30,7 @@ Good examples of horizontal scaling are [Cassandra](https://en.wikipedia.org/wik
   <i>Vertical scaling vs. Horizontal scaling</i>
 </p>
 
-**Related Topic**<br>
+## Related Topic<br>
 [Scalability Lecture at Harvard](https://www.youtube.com/watch?v=-W9F__D3oY4)<br>
 * Topics covered:<br>
   * Vertical scaling<br>
@@ -39,6 +39,14 @@ Good examples of horizontal scaling are [Cassandra](https://en.wikipedia.org/wik
   * Load balancing<br>
   * Database replication<br>
   * Database partitioning<br>
+
+## Performance vs scalability
+A service is **scalable** if it results in increased **performance** in a manner proportional to resources added. Generally, increasing performance means serving more units of work, but it can also be to handle larger units of work, such as when datasets grow.1
+
+Another way to look at performance vs scalability:
+
+* If you have a performance problem, your system is slow for a single user.
+* If you have a scalability problem, your system is fast for a single user but slow under heavy load.
                                              
 ## Reliability
 
