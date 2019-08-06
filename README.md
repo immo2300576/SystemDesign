@@ -27,7 +27,7 @@ Good examples of horizontal scaling are [Cassandra](https://en.wikipedia.org/wik
 
 <p align="center">
   <img src="images/vertical_horizontal.svg"><br>
-  <i>Vertical scaling vs. Horizontal scaling</i></br>
+  <i>Vertical scaling vs. Horizontal scaling</i><br>
 </p>
 
 **Related Topic**
