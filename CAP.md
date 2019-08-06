@@ -68,3 +68,35 @@ In active-active, both servers are managing traffic, spreading the load between 
 If the servers are public-facing, the DNS would need to know about the public IPs of both servers. If the servers are internal-facing, application logic would need to know about both servers.
 
 Active-active failover can also be referred to as master-master failover.
+
+## Disadvantage(s): failover
+* Fail-over adds more hardware and additional complexity.
+* There is a potential for loss of data if the active system fails before any newly written data can be replicated to the passive.
+
+## Replication
+### Master-slave and master-master
+This topic is further discussed in the Database section:
+* Master-slave replication
+* Master-master replication
+
+## Availability in numbers
+Availability is often quantified by uptime (or downtime) as a percentage of time the service is available. Availability is generally measured in number of 9s--a service with 99.99% availability is described as having four 9s.
+
+### 99.9% availability - three 9s
+
+### 99.99% availability - four 9s
+
+### Availability in parallel vs in sequence
+If a service consists of multiple components prone to failure, the service's overall availability depends on whether the components are in sequence or in parallel.
+
+#### In sequence
+Overall availability decreases when two components with availability < 100% are in sequence:
+Availability (Total) = Availability (Foo) * Availability (Bar)
+
+If both Foo and Bar each had 99.9% availability, their total availability in sequence would be 99.8%.
+
+#### In parallel
+Overall availability increases when two components with availability < 100% are in parallel:
+Availability (Total) = 1 - (1 - Availability (Foo)) * (1 - Availability (Bar))
+
+If both Foo and Bar each had 99.9% availability, their total availability in parallel would be 99.9999%.
