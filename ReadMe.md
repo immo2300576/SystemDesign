@@ -90,3 +90,5 @@ Early detection of faults can decrease or avoid system downtime. For example, so
 
 # Following Section
 * [CAP Theorem](https://github.com/immo2300576/SystemDesign/blob/master/CAP.md)
+* [Load Balancer](https://github.com/immo2300576/SystemDesign/blob/master/LB.md)
+* [DNS](https://github.com/immo2300576/SystemDesign/blob/master/DNS.md)
