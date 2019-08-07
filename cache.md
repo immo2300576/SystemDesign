@@ -32,13 +32,13 @@ Although, write through minimizes the risk of data loss, since every write opera
 
 Following are some of the most common cache eviction policies:
 
-1.  First In First Out (FIFO): The cache evicts the first block accessed first without any regard to how often or how many times it was accessed before.<br>
-2. Last In First Out (LIFO): The cache evicts the block accessed most recently first without any regard to how often or how many times it was accessed before.<br>
-3. Least Recently Used (LRU): Discards the least recently used items first.<br>
-4. Most Recently Used (MRU): Discards, in contrast to LRU, the most recently used items first.<br>
-5. Least Frequently Used (LFU): Counts how often an item is needed. Those that are used least often are discarded first.<br>
-6. Random Replacement (RR): Randomly selects a candidate item and discards it to make space when necessary.<br>
+1. **First In First Out (FIFO)**: The cache evicts the first block accessed first without any regard to how often or how many times it was accessed before.<br>
+2. **Last In First Out (LIFO)**: The cache evicts the block accessed most recently first without any regard to how often or how many times it was accessed before.<br>
+3. **Least Recently Used (LRU)**: Discards the least recently used items first.<br>
+4. **Most Recently Used (MRU)**: Discards, in contrast to LRU, the most recently used items first.<br>
+5. **Least Frequently Used (LFU)**: Counts how often an item is needed. Those that are used least often are discarded first.<br>
+6. **Random Replacement (RR)**: Randomly selects a candidate item and discards it to make space when necessary.<br>
 
-Following links have some good discussion about caching:
-[1] [Cache](https://en.wikipedia.org/wiki/Cache_(computing))
-[2] [Introduction to architecting systems](https://lethain.com/introduction-to-architecting-systems-for-scale/)
+Following links have some good discussion about caching:<br>
+[1] [Cache](https://en.wikipedia.org/wiki/Cache_(computing))<br>
+[2] [Introduction to architecting systems](https://lethain.com/introduction-to-architecting-systems-for-scale/)<br>
