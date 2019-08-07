@@ -5,8 +5,7 @@ A proxy server is an intermediate server between the client and the back-end ser
 Typically, proxies are used to filter requests, log requests, or sometimes transform requests (by adding/removing headers, encrypting/decrypting, or compressing a resource). Another advantage of a proxy server is that its cache can serve a lot of requests. If multiple clients access a particular resource, the proxy server can cache it and serve it to all the clients without going to the remote server.
 
 <p align="center">
-  <img src="images/proxy.svg"><br>
-  <i>Vertical scaling vs. Horizontal scaling</i>
+  <img src="images/proxy.png"><br>
 </p>
 
 ## Proxy Server Types
