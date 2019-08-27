@@ -185,7 +185,7 @@ Whenever these servers need to generate the News Feed of a user, they will first
 
 3. **Hybrid:** We can adopt a hybrid approach. We can move all the users who have a high number of follows to a pull-based model and only push data to those users who have a few hundred (or thousand) follows. Another approach could be that the server pushes updates to all the users not more than a certain frequency, letting users with a lot of follows/updates to regularly pull data.
 
-For a detailed discussion about News Feed generation, take a look at [Designing Facebook’s Newsfeed](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5641332169113600).
+For a detailed discussion about News Feed generation, take a look at [Designing Facebook’s Newsfeed](https://github.com/immo2300576/SystemDesign/tree/master/example/Facebook_NewsFeed).
 
 ## 12. News Feed Creation with Sharded Data
 One of the most important requirement to create the News Feed for any given user is to fetch the latest photos from all people the user follows. For this, we need to have a mechanism to sort photos on their time of creation. To efficiently do this, we can make photo creation time part of the PhotoID. As we will have a primary index on PhotoID, it will be quite quick to find the latest PhotoIDs.
