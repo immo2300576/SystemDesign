@@ -66,7 +66,7 @@ The detailed workflow would look like this:
 5. The server notifies User-A that the message has been delivered successfully to User-B.<br>
 
 <p align="center">
-  <img src="images/workflow.png"><br>
+  <img src="images/workflow.PNG"><br>
 </p>
 
 ## 5. Detailed Component Design
