@@ -37,12 +37,12 @@ We can have SOAP or REST APIs to expose the functionality of our service. The fo
 getUserFeed(api_dev_key, user_id, since_id, count, max_id, exclude_replies)
 ```
 #### Parameters:
-**api_dev_key (string):** The API developer key of a registered can be used to, among other things, throttle users based on their allocated quota.<br>
-**user_id (number):** The ID of the user for whom the system will generate the newsfeed.<br>
-**since_id (number):** Optional; returns results with an ID higher than (that is, more recent than) the specified ID.<br>
-**count (number):** Optional; specifies the number of feed items to try and retrieve up to a maximum of 200 per distinct request.<br>
-**max_id (number):** Optional; returns results with an ID less than (that is, older than) or equal to the specified ID.<br>
-**exclude_replies(boolean):** Optional; this parameter will prevent replies from appearing in the returned timeline.<br>
+  **api_dev_key (string):** The API developer key of a registered can be used to, among other things, throttle users based on their allocated quota.<br>
+  **user_id (number):** The ID of the user for whom the system will generate the newsfeed.<br>
+  **since_id (number):** Optional; returns results with an ID higher than (that is, more recent than) the specified ID.<br>
+  **count (number):** Optional; specifies the number of feed items to try and retrieve up to a maximum of 200 per distinct request.<br>
+  **max_id (number):** Optional; returns results with an ID less than (that is, older than) or equal to the specified ID.<br>
+  **exclude_replies(boolean):** Optional; this parameter will prevent replies from appearing in the returned timeline.<br>
 
 **Returns:** (JSON) Returns a JSON object containing a list of feed items.<br>
 
