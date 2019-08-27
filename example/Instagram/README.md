@@ -198,7 +198,7 @@ We can use epoch time for this. Let’s say our PhotoID will have two parts; the
 ```
 We would need 31 bits to store this number. Since on the average, we are expecting 23 new photos per second; we can allocate 9 bits to store auto incremented sequence. So every second we can store (2^9 => 512) new photos. We can reset our auto incrementing sequence every second.
 
-We will discuss more details about this technique under ‘Data Sharding’ in [Designing Twitter](https://www.educative.io/collection/page/5668639101419520/5649050225344512/5741031244955648).
+We will discuss more details about this technique under ‘Data Sharding’ in [Designing Twitter](https://github.com/immo2300576/SystemDesign/blob/master/example/Twitter/README.md).
 
 ## 13. Cache and Load balancing
 Our service would need a massive-scale photo delivery system to serve the globally distributed users. Our service should push its content closer to the user using a large number of geographically distributed photo cache servers and use CDNs (for details see [Caching](https://github.com/immo2300576/SystemDesign/blob/master/cache.md)).
